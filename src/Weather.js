@@ -7,14 +7,14 @@ export default function Weather() {
       <div className="weather">
         <form>
           <div className="row g-1 justify-content-center">
-            <div className="col-7">
+            <div className="col-md-7 col-sm-7">
               <input
                 type="search"
                 placeholder="Enter a city"
                 className="form-control form-control-sm"
               />
             </div>
-            <div className="col-auto">
+            <div className="col-md-auto col-sm-auto">
               <input
                 type="submit"
                 value="Search"
@@ -29,7 +29,7 @@ export default function Weather() {
           </div>
         </form>
         <div className="primary-weather">
-          <h1>Belfast</h1>
+          <h1>Frankfurt am Main</h1>
           <h2>Last updated: Wed 18:00</h2>
           <div className="row">
             <div className="col-6">

@@ -8,6 +8,7 @@
   padding: 30px;
 }
 
+/*Primary Weather Section*/
 .primary-weather {
   text-align: center;
   color: #0466b1;
@@ -66,4 +67,33 @@ h4 {
   position: relative;
   font-size: 15px;
   top: -5px;
+}
+
+/*Media Queries*/
+@media (max-width: 767px) {
+  .primary-weather {
+    padding: 50px 30px 30px;
+    margin: 20px auto;
+    width: 270px;
+  }
+
+  .primary-weather h1,
+  h3 {
+    font-size: 20px;
+  }
+
+  .primary-weather h2,
+  h4,
+  h5,
+  h6 {
+    font-size: 12px;
+  }
+
+  .primary-weather .primary-icon {
+    max-width: 55px;
+  }
+
+  .primary-weather .units {
+    font-size: 12px;
+  }
 }
