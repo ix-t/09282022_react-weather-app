@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherData from "./WeatherData";
+import WeatherImage from "./WeatherImage";
 import "./Weather.css";
 
 export default function Weather(props) {
@@ -13,6 +14,7 @@ export default function Weather(props) {
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
       icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+      iconCode: response.data.weather[0].icon,
       temp: response.data.main.temp,
       description: response.data.weather[0].description,
       humidity: response.data.main.humidity,
@@ -39,6 +41,7 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div className="weather-wrapper">
+        <WeatherImage data={weatherData} />
         <div className="weather">
           <form onSubmit={handleSubmit}>
             <div className="row g-1 justify-content-center align-items-center">
