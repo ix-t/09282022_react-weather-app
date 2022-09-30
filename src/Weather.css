@@ -22,7 +22,7 @@
 
 .primary-weather h1,
 h3 {
-  font-size: 25px;
+  font-size: 24px;
   font-weight: bold;
   font-family: "DM Serif Display", serif;
   margin: 0 auto;
@@ -33,7 +33,7 @@ h3 {
 h4,
 h5,
 h6 {
-  font-size: 15px;
+  font-size: 14px;
   margin: 0 auto;
   padding: 0;
 }
@@ -46,16 +46,10 @@ h6 {
   margin-top: 10px;
 }
 
-.primary-weather h3,
-h4 {
-  position: relative;
-  right: 20px;
-}
-
 .primary-weather .primary-icon {
   position: relative;
   left: 10px;
-  max-width: 90px;
+  max-width: 95px;
   height: auto;
 }
 
@@ -86,7 +80,7 @@ h4 {
   }
 
   .primary-weather .primary-icon {
-    max-width: 55px;
+    max-width: 70px;
   }
 
   .primary-weather .units {

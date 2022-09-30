@@ -8,15 +8,15 @@ export default function WeatherData(props) {
       <h2>
         <FormattedDate date={props.data.date} />
       </h2>
-      <div className="row">
-        <div className="col-6">
+      <div className="row justify-content-center align-items-center">
+        <div className="col-4">
           <img
             src={props.data.icon}
             alt={props.data.description}
             className="primary-icon img-fluid"
           />
         </div>
-        <div className="col-6">
+        <div className="col-8">
           <h3>
             <span>{Math.round(props.data.temp)}</span>
             <span className="units"> °C </span>
