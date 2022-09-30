@@ -38,10 +38,6 @@ h6 {
   padding: 0;
 }
 
-.primary-weather h4 {
-  text-transform: capitalize;
-}
-
 .primary-weather h2 {
   margin-bottom: 10px;
 }
