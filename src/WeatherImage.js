@@ -1,4 +1,5 @@
 import React from "react";
+import "./Weather.css";
 
 export default function WeatherImage(props) {
   const codeMapping = {
@@ -31,8 +32,6 @@ export default function WeatherImage(props) {
         backgroundImage: `url(/img/${iconImage})`,
       }}
       className="background-image"
-    >
-      Image
-    </div>
+    ></div>
   );
 }

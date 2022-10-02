@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherData from "./WeatherData";
-import WeatherImage from "./WeatherImage";
+//import WeatherImage from "./WeatherImage";
 import "./Weather.css";
 
 export default function Weather(props) {
@@ -40,8 +40,12 @@ export default function Weather(props) {
 
   if (weatherData.ready) {
     return (
-      <div className="weather-wrapper">
-        <WeatherImage data={weatherData} />
+      <div
+        className="weather-wrapper"
+        style={{
+          backgroundImage: `url(/img/${weatherData.iconCode}-image.jpg)`,
+        }}
+      >
         <div className="weather">
           <form onSubmit={handleSubmit}>
             <div className="row g-1 justify-content-center align-items-center">
