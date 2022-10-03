@@ -1,0 +1,15 @@
+.weatherForecast {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.weatherForecastDay,
+.weatherForecastMaxTemp {
+  font-weight: bold;
+}
+
+.weatherForecastIcon {
+  max-width: 95px;
+  height: auto;
+}
