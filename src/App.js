@@ -5,26 +5,8 @@ import Weather from "./Weather";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
-        <Weather defaultCity="Belfast" />
-        <footer>
-          This project was coded by{" "}
-          <a
-            href="https://www.linkedin.com/in/ixchel-t/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Ixchel
-          </a>
-          , and it is{" "}
-          <a
-            href="https://github.com/ix-t/09282022_react-weather-app"
-            target="_blank"
-            rel="noreferrer"
-          >
-            open-sourced on GitHub
-          </a>
-        </footer>
+      <div className="container container-fluid">
+        <Weather defaultCity="Tokyo" />
       </div>
     </div>
   );

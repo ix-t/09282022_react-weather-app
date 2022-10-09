@@ -1,7 +1,9 @@
 .weather-wrapper {
   font-family: "Roboto Flex", sans-serif;
   max-width: 800px;
+  background-size: cover;
   margin: 0 auto;
+  border: 3px ridge rgb(255, 255, 255, 0.55);
 }
 
 .weather {
@@ -48,15 +50,15 @@ h6 {
 
 .primary-weather .primary-icon {
   position: relative;
-  left: 10px;
+  left: -18px;
   max-width: 95px;
   height: auto;
 }
 
-.primary-weather .units {
+.primaryTemp .units {
   position: relative;
-  font-size: 15px;
-  top: -5px;
+  font-size: 13px;
+  top: -8px;
 }
 
 /*Media Queries*/
