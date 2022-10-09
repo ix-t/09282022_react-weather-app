@@ -2,6 +2,7 @@
   color: #fff;
   text-align: center;
   font-size: 14px;
+  margin: 0 90px;
 }
 
 .row {
@@ -9,6 +10,7 @@
 }
 
 .col {
+  text-align: center;
   background: linear-gradient(
     -180deg,
     rgba(255, 255, 255, 0.5) 0%,
@@ -27,6 +29,5 @@
 }
 
 .weatherForecastIcon {
-  max-width: 100px;
-  height: 60px;
+  max-width: 100%;
 }
